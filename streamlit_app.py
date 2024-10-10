@@ -20,13 +20,12 @@ st.markdown(
 # Sidebar for navigation
 page = st.sidebar.selectbox(
     "Select a page",
-    ["Main Portfolio", "Wine Tasting Model Training Project", "NFL Combine Analysis"]
+    ["Home", "Wine Tasting Model Training Project", "NFL Combine Analysis"]
 )
 
 # Navigation logic
-if page == "Main Portfolio":
+if page == "Home":
     st.title("Joshua Gataric Portfolio")
-    st.header("Welcome to My Interactive Portfolio")
 
     # Bio Section
     st.subheader("Bio")
