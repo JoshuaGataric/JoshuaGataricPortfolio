@@ -46,7 +46,7 @@ if page == "Home":
 
     # Projects Section
     st.subheader("Projects")
-    st.write("You can view the projects using the sidebar or by clicking the links below:")
+    st.write("You can view the projects using the sidebar:")
     st.write("- Wine Tasting Model Training Project")
     st.write("- NFL Combine Analysis")
 
