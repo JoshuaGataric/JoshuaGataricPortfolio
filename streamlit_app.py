@@ -47,8 +47,8 @@ if page == "Home":
     # Projects Section
     st.subheader("Projects")
     st.write("You can view the projects using the sidebar or by clicking the links below:")
-    st.write("- [Wine Tasting Model Training Project](pages/wine_project.py)")
-    st.write("- [NFL Combine Analysis](pages/nfl_project.py)")
+    st.write("- Wine Tasting Model Training Project")
+    st.write("- NFL Combine Analysis")
 
     # Connect with Me Section
     st.subheader("Connect with Me")
