@@ -17,36 +17,50 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Header
-st.title("Joshua Gataric Portfolio")
-st.header("Welcome to My Interactive Portfolio")
+# Sidebar for navigation
+page = st.sidebar.selectbox(
+    "Select a page",
+    ["Main Portfolio", "Wine Tasting Model Training Project", "NFL Combine Analysis"]
+)
 
-# Bio Section
-st.subheader("Bio")
-st.image("Header.jpeg", width=200)  # Make sure you have the image in the same directory
-st.write("""
-Hi! I'm Joshua Gataric, currently pursuing a Master of Data Science at UCI. I have a keen interest in machine learning, artificial intelligence, and exploratory data analysis.
-My role as a supplemental instruction leader at San Diego State ignited my curiosity and passion for statistics.
-Additionally, undergraduate coursework such as Ling 583 Statistical Methods in Text Analysis and STAT 410 R Programming and Data Science 
-has deepened my enthusiasm for the field of data science.
-""")
+# Navigation logic
+if page == "Main Portfolio":
+    st.title("Joshua Gataric Portfolio")
+    st.header("Welcome to My Interactive Portfolio")
 
-# Education Section
-st.subheader("Education")
-st.write("""
-- M.S. Data Science - UC Irvine (Expected Graduation December 2025)
-- B.S. Statistics - San Diego State, Magna Cum Laude
-""")
+    # Bio Section
+    st.subheader("Bio")
+    st.image("Header.jpeg", width=200)  # Ensure the image is in the same directory or provide the correct path
+    st.write("""
+    Hi! I'm Joshua Gataric, currently pursuing a Master of Data Science at UCI. I have a keen interest in machine learning, artificial intelligence, and exploratory data analysis.
+    My role as a supplemental instruction leader at San Diego State ignited my curiosity and passion for statistics.
+    Additionally, undergraduate coursework such as Ling 583 Statistical Methods in Text Analysis and STAT 410 R Programming and Data Science 
+    has deepened my enthusiasm for the field of data science.
+    """)
 
-# Projects Section
-st.subheader("Projects")
-st.write("- [Wine Tasting Model Training Project](https://joshuagataric.github.io/Wine-Tasting-Model-Training-Project)")
-st.write("- [NFL Combine Analysis](https://joshuagataric.github.io/NFL-Combine-Analysis)")
+    # Education Section
+    st.subheader("Education")
+    st.write("""
+    - M.S. Data Science - UC Irvine (Expected Graduation December 2025)
+    - B.S. Statistics - San Diego State, Magna Cum Laude
+    """)
 
-# Connect with Me Section
-st.subheader("Connect with Me")
-st.write("You can find me on LinkedIn:")
-st.write("[www.linkedin.com/in/joshua-gataric](https://www.linkedin.com/in/joshua-gataric)")
+    # Projects Section
+    st.subheader("Projects")
+    st.write("You can view the projects using the sidebar or by clicking the links below:")
+    st.write("- [Wine Tasting Model Training Project](pages/wine_project.py)")
+    st.write("- [NFL Combine Analysis](pages/nfl_project.py)")
 
-# Footer
-st.write("© 2024 Joshua Gataric")
+    # Connect with Me Section
+    st.subheader("Connect with Me")
+    st.write("You can find me on LinkedIn:")
+    st.write("[www.linkedin.com/in/joshua-gataric](https://www.linkedin.com/in/joshua-gataric)")
+
+    # Footer
+    st.write("© 2024 Joshua Gataric")
+
+elif page == "Wine Tasting Model Training Project":
+    exec(open("wine_project.py").read())
+
+elif page == "NFL Combine Analysis":
+    exec(open("nfl_project.py").read())
