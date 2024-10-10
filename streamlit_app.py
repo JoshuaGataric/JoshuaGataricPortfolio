@@ -1,5 +1,22 @@
 import streamlit as st
 
+# Custom CSS for dark theme
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #0E1117;  /* Dark background color */
+        color: white;  /* Text color */
+    }
+    .stButton > button {
+        background-color: #1E1E1E;  /* Button background color */
+        color: white;  /* Button text color */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Header
 st.title("Joshua Gataric Portfolio")
 st.header("Welcome to My Interactive Portfolio")
