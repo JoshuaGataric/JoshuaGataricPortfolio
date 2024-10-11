@@ -29,7 +29,7 @@ if page == "Home":
 
     # Bio Section
     st.subheader("Bio")
-    st.image("Header.jpeg", width=200)  # Ensure the image is in the same directory or provide the correct path
+    st.image("Header.jpeg", width=200) 
     st.write("""
     Hi! I'm Joshua Gataric, currently pursuing a Master of Data Science at UCI. I have a keen interest in machine learning, artificial intelligence, and exploratory data analysis.
     My role as a supplemental instruction leader at San Diego State ignited my curiosity and passion for statistics.
