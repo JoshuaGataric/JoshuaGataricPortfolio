@@ -24,7 +24,7 @@ st.header("Project Overview")
 
 # Overview Section
 st.write("""
-This project analyzes media outlet reactions to Michigan’s 30-24 victory over Ohio State during the 2023 college football regular season, emphasizing linguistic trends that shape narratives around high-stakes sports rivalries. By building a custom corpus with articles from ESPN, FOX SPORTS, and CBS SPORTS, I explore recurring patterns in language through collocation analysis, highlighting the cultural intensity and significance of "THE GAME."
+This project analyzes media outlet reactions to Michigan’s 30-24 victory over Ohio State during the 2023 college football regular season, emphasizing linguistic trends that shape narratives around high-stakes sports rivalries. By building a custom corpus with articles from ESPN, FOX SPORTS, and CBS SPORTS, I explored recurring patterns in language through collocation analysis, highlighting the cultural intensity and significance of "THE GAME."
 
 Using bigram and trigram collocations along with measures like raw frequency, PMI, and likelihood ratio, this project unveils key players, coaches, and themes from the media’s perspective. The outcome not only reveals shared terminology but also paints a picture of how language encapsulates rivalry in collegiate sports.
 """)
