@@ -19,6 +19,7 @@ st.markdown(
 
 # Header
 st.title("THE GAME Corpus Construction Project")
+st.image("THEGAME.png")
 st.header("Project Overview")
 
 # Overview Section
