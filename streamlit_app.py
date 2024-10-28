@@ -49,7 +49,7 @@ if page == "Home":
     st.write("You can view the projects using the sidebar:")
     st.write("- Wine Tasting Model Training Project")
     st.write("- NFL Combine Analysis")
-    st.write("- THE GAME Corpus Construction")
+    st.write("- THE GAME Corpus Construction Analysis")
 
     # Connect with Me Section
     st.subheader("Connect with Me")
@@ -67,3 +67,4 @@ elif page == "NFL Combine Analysis":
 
 elif page == "THE GAME Corpus Construction":
     exec(open("corpus_construction.py").read())
+
