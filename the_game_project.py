@@ -18,30 +18,30 @@ st.markdown(
 )
 
 # Header
-st.title("THE GAME Corpus Construction Analysis")
+st.title("Wine Tasting Model Training Project")
 st.header("Project Overview")
 
 # Overview Section
 st.write("""
-This project analyzed media outlet reactions to Michigan’s 30-24 victory over Ohio State last season, emphasizing linguistic trends that shape narratives around high-stakes sports rivalries. By building a custom corpus with articles from ESPN, FOX SPORTS, and CBS SPORTS, I explored recurring patterns in language through collocation analysis, highlighting the cultural intensity and significance of "THE GAME."
+This project demonstrated the application of machine learning techniques to predict wine labels based on wine reviews. By leveraging text processing tools such as CountVectorizer and TfidfVectorizer, and employing models like LinearSVC and RandomForestClassifier, the project achieved meaningful insights into wine label prediction.
 
-Using bigram and trigram collocations along with measures like raw frequency, PMI, and likelihood ratio, this project unveils key players, coaches, and themes from the media’s perspective. The outcome not only reveals shared terminology but also paints a picture of how language encapsulates rivalry in collegiate sports.
+The use of F1 macro average scores provided a balanced evaluation of the model’s precision and recall across different labels, while the confusion matrix visualization offered a deeper understanding of model performance and areas for improvement.
+
+Future work could involve exploring deeper models like neural networks or incorporating more features from the wine reviews, such as reviewer characteristics or wine-specific attributes like price and region, to further enhance predictive performance.
 """)
 
 # Results Section
 st.subheader("Results")
 
-# Display Raw Frequency Analysis
-st.write("### Raw Frequency Collocations:")
-st.image("RawFrequencyCollocations.png", caption="Raw Frequency Bigrams/Trigrams")
+# Display Linear SVC results
+st.write("### Linear SVC Confusion Matrix and F1 Macro Avg Score:")
+st.image("SVMConfusionMatrix.png", caption="Linear SVC Confusion Matrix")
+st.image("SVMScores.png", caption="Linear SVC F1 Macro Avg Score")
 
-# Display PMI Analysis
-st.write("### PMI Collocations:")
-st.image("PMICollocations.png", caption="PMI Bigrams/Trigrams")
-
-# Display Likelihood Ratio Analysis
-st.write("### Likelihood Ratio Collocations:")
-st.image("LikelihoodRatioCollocations.png", caption="Likelihood Ratio Bigrams/Trigrams")
+# Display Random Forest results
+st.write("### Random Forest Confusion Matrix and F1 Macro Avg Score:")
+st.image("RandomForestConfusionMatrix.png", caption="Random Forest Confusion Matrix")
+st.image("RandomForestScores.png", caption="Random Forest F1 Macro Avg Score")
 
 # Footer
 st.write("© 2024 Joshua Gataric")
