@@ -64,3 +64,6 @@ elif page == "Wine Tasting Model Training Project":
 
 elif page == "NFL Combine Analysis":
     exec(open("nfl_project.py").read())
+
+elif page == "THE GAME Corpus Construction":
+    exec(open("corpus_construction.py").read())
