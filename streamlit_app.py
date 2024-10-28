@@ -20,7 +20,7 @@ st.markdown(
 # Sidebar for navigation
 page = st.sidebar.selectbox(
     "Select a page",
-    ["Home", "Wine Tasting Model Training Project", "NFL Combine Analysis"]
+    ["Home", "Wine Tasting Model Training Project", "NFL Combine Analysis","THE GAME Corpus Contruction Analysis"]
 )
 
 # Navigation logic
@@ -29,7 +29,7 @@ if page == "Home":
 
     # Bio Section
     st.subheader("Bio")
-    st.image("Header.jpeg", width=200) 
+    st.image("Header.jpeg", width=200)  # Ensure the image is in the same directory or provide the correct path
     st.write("""
     Hi! I'm Joshua Gataric, currently pursuing a Master of Data Science at UCI. I have a keen interest in machine learning, artificial intelligence, and exploratory data analysis.
     My role as a supplemental instruction leader at San Diego State ignited my curiosity and passion for statistics.
@@ -49,6 +49,7 @@ if page == "Home":
     st.write("You can view the projects using the sidebar:")
     st.write("- Wine Tasting Model Training Project")
     st.write("- NFL Combine Analysis")
+    st.write("- THE GAME Corpus Construction Analysis")
 
     # Connect with Me Section
     st.subheader("Connect with Me")
