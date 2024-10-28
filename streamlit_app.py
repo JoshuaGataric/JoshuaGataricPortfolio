@@ -59,7 +59,7 @@ if page == "Home":
     # Footer
     st.write("© 2024 Joshua Gataric")
 
-elif page == "Wine Tasting Model Training Project":
+elif page == "Wine Tasting Model Training":
     exec(open("wine_project.py").read())
 
 elif page == "NFL Combine Analysis":
