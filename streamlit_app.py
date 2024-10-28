@@ -49,7 +49,7 @@ if page == "Home":
     st.write("You can view the projects using the sidebar:")
     st.write("- Wine Tasting Model Training Project")
     st.write("- NFL Combine Analysis")
-    st.write("- THE GAME Corpus Construction Analysis")
+    st.write("- THE GAME Corpus Construction")
 
     # Connect with Me Section
     st.subheader("Connect with Me")
