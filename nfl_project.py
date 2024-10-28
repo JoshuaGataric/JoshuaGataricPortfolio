@@ -19,6 +19,7 @@ st.markdown(
 
 # Header
 st.title("NFL Combine Analysis")
+st.image("Combine.png")
 st.header("Project Overview")
 
 # Overview Section
