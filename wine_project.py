@@ -19,6 +19,7 @@ st.markdown(
 
 # Header
 st.title("Wine Tasting Model Training Project")
+st.image("Wine.jpg")
 st.header("Project Overview")
 
 # Overview Section
