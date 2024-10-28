@@ -1,5 +1,26 @@
 import streamlit as st
 
+# Custom CSS for dark theme
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #0E1117;
+        color: white;
+    }
+    .stButton > button {
+        background-color: #1E1E1E;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Header
+st.title("THE GAME Corpus Construction Analysis")
+st.header("Project Overview")
+
 # Overview Section
 st.write("""
 This project analyzed media outlet reactions to Michigan’s 30-24 victory over Ohio State last season, emphasizing linguistic trends that shape narratives around high-stakes sports rivalries. By building a custom corpus with articles from ESPN, FOX SPORTS, and CBS SPORTS, I explored recurring patterns in language through collocation analysis, highlighting the cultural intensity and significance of "THE GAME."
