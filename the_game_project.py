@@ -1,4 +1,4 @@
-iimport streamlit as st
+import streamlit as st
 
 # Custom CSS for dark theme
 st.markdown(
@@ -16,6 +16,10 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+# Header
+st.title("THE GAME Corpus Construction Analysis")
+st.header("Project Overview")
 
 # Overview Section
 st.write("""
