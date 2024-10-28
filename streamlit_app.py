@@ -20,7 +20,7 @@ st.markdown(
 # Sidebar for navigation
 page = st.sidebar.selectbox(
     "Select a page",
-    ["Home", "Wine Tasting Model Training Project", "NFL Combine Analysis","THE GAME Corpus Contruction Analysis"]
+    ["Home", "Wine Tasting Model Training Project", "NFL Combine Analysis","THE GAME Corpus Construction"]
 )
 
 # Navigation logic
