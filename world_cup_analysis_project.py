@@ -50,14 +50,14 @@ In this analysis, top players like Messi and Mbappe stand out with high offensiv
 
 # Display PC2 vs PC3 results
 st.write("### PC2 vs PC3 Analysis:")
-st.image("PC2vsPC3Players.png", caption="PC2 vs PC3 for Teams and Players")
+st.image("PC2vsPC3.png", caption="PC2 vs PC3 for Teams and Players")
 st.write("""
 This analysis highlights the influence of age. Young players like Musiala and Bellingham appear, with Ecuador identified as the youngest team and Brazil the oldest.
 """)
 
 # Display PC1 vs PC3 results
 st.write("### PC1 vs PC3 Analysis:")
-st.image("PC1vsPC3Players.png", caption="PC1 vs PC3 for Teams and Players")
+st.image("PC1vsPC3.png", caption="PC1 vs PC3 for Teams and Players")
 st.write("""
 The PC1 vs PC3 plot shows experience-related trends. Although top teams like Croatia, Argentina, and France have high overall performance, Croatia has a younger average age compared to the others.
 """)
