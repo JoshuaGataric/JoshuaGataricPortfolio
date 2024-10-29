@@ -25,6 +25,16 @@ Football has always been my favorite sport. Although I never had the chance to p
 st.image("Madden1.jpg") 
 st.image("Madden2.JPG") 
 
+# Twitch Clips Subsection
+st.write("#### Highlighted Twitch Clips")
+st.write("""
+Here are a few highlights from my Madden gameplay on Twitch:
+""")
+st.video("https://bit.ly/MaddenClip1")
+st.video("https://bit.ly/MaddenClip2")
+st.video("https://bit.ly/MaddenClip3")
+
+
 # Off-Roading/Hiking subsection
 st.write("### Off-Roading/Hiking")
 st.write("""
