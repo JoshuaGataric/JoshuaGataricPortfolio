@@ -43,3 +43,6 @@ Since my parents got a Jeep, off-roading and hiking have become a bonding activi
 st.image("Outdoors1.JPG") 
 st.image("Outdoors2.jpg") 
 st.image("Outdoors3.jpg") 
+
+# Footer
+st.write("© 2024 Joshua Gataric")
