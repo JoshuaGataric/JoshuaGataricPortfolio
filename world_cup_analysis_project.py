@@ -24,7 +24,7 @@ st.header("Project Overview")
 
 # Overview Section
 st.write("""
-This project analyzes player statistics from the 2022 FIFA World Cup, including goals, assists, successful dribbles, tackles, and more. I applied Principal Component Analysis (PCA) to capture the relationships betIen these stats and reveal underlying patterns in player and team performance.
+This project analyzes player statistics from the 2022 FIFA World Cup, including goals, assists, successful dribbles, tackles, and more. I applied Principal Component Analysis (PCA) using SAS to capture the relationships betIen these stats and reveal underlying patterns in player and team performance.
 
 PCA helped in identifying key components representing offensive versus defensive metrics, player experience, and age. This analysis gives insights into the characteristics of top players and teams, highlighting key differences betIen offensive and balanced play styles.
 """)
