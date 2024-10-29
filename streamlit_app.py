@@ -20,7 +20,7 @@ st.markdown(
 # Sidebar for navigation
 page = st.sidebar.selectbox(
     "Select a page",
-    ["Home", "Wine Tasting Model Training", "NFL Combine Analysis","THE GAME Corpus Construction","2022 World Cup Analysis"]
+    ["Home","Hobbies", "Wine Tasting Model Training", "NFL Combine Analysis","THE GAME Corpus Construction","2022 World Cup Analysis"]
 )
 
 # Navigation logic
@@ -59,6 +59,9 @@ if page == "Home":
 
     # Footer
     st.write("© 2024 Joshua Gataric")
+
+elif page == "Hobbies":
+    exec(open("hobbies.py").read())
 
 elif page == "Wine Tasting Model Training":
     exec(open("wine_project.py").read())
