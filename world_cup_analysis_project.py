@@ -50,7 +50,7 @@ In this analysis, top players like Messi and Mbappe stand out with high offensiv
 
 # Display PC2 vs PC3 results
 st.write("### PC2 vs PC3 Analysis:")
-st.image("PC2vsPC3_Players.png", caption="PC2 vs PC3 for Teams and Players")
+st.image("PC2vsPC3Players.png", caption="PC2 vs PC3 for Teams and Players")
 st.write("""
 This analysis highlights the influence of age. Young players like Musiala and Bellingham appear, with Ecuador identified as the youngest team and Brazil the oldest.
 """)
