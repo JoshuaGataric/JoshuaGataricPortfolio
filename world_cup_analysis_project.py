@@ -19,7 +19,7 @@ st.markdown(
 
 # Header
 st.title("2022 FIFA World Cup PCA Analysis")
-#st.image("WorldCupImage.jpg")  # Replace with an appropriate image file
+st.image("WorldCupImage.jpg")  # Replace with an appropriate image file
 st.header("Project Overview")
 
 # Overview Section
