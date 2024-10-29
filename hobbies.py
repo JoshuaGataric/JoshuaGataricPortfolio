@@ -30,9 +30,9 @@ st.write("#### Highlighted Twitch Clips")
 st.write("""
 Here are a few highlights from my Madden gameplay on Twitch:
 """)
-st.video("https://bit.ly/MaddenClip1")
-st.video("https://bit.ly/MaddenClip2")
-st.video("https://bit.ly/MaddenClip3")
+st.video("https://clips.twitch.tv/PowerfulAgreeableCatOpieOP-rE82rBMBgFn3Whb2")
+st.video("https://clips.twitch.tv/BillowingArtsyHerringSuperVinlin-TStZsadnVgMjuyhC")
+st.video("https://www.twitch.tv/levelnextgg/clip/EncouragingCrypticDurianTinyFace-NLlOblFDinL_ngcl")
 
 
 # Off-Roading/Hiking subsection
