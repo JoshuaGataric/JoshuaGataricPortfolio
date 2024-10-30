@@ -2,6 +2,7 @@ import streamlit as st
 
 # Set up the page title and introduction
 st.title("Stadium Seat Booking System")
+st.image("StadiumSeat.jpg")
 
 # Introduction Section
 st.header("Project Overview")
