@@ -20,7 +20,7 @@ st.markdown(
 # Sidebar for navigation
 page = st.sidebar.selectbox(
     "Select a page",
-    ["Home","Hobbies", "Wine Tasting Model Training", "NFL Combine Analysis","THE GAME Corpus Construction","2022 World Cup Analysis","Ticket Sales Database"]
+    ["Home","Hobbies", "Wine Tasting Model Training", "NFL Combine Analysis","THE GAME Corpus Construction","2022 World Cup Analysis","Stadium Seat Booking System Database"]
 )
 
 # Navigation logic
@@ -76,5 +76,5 @@ elif page == "THE GAME Corpus Construction":
 elif page == "2022 World Cup Analysis":
     exec(open("world_cup_analysis_project.py").read())
 
-elif page == "Ticket Sales Database":
+elif page == "Stadium Seat Booking System Database":
     exec(open("ticket_sales_database.py").read())
