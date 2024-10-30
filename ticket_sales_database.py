@@ -17,7 +17,8 @@ st.image("RelationModel.png", caption="Schema Design")
 # Database Implementation Section with SQL Code
 st.header("Database Implementation")
 
-st.subheader("Users Table")
+st.subheader("Example Table: Users")
+st.write("The `Users` table stores basic user details, ensuring each user's unique identity in the system.")
 st.code("""
 CREATE TABLE Users (
     UserID INT AUTO_INCREMENT,
@@ -28,91 +29,13 @@ CREATE TABLE Users (
 );
 """, language="sql")
 
-st.subheader("Venues Table")
-st.code("""
-CREATE TABLE Venues (
-    VenueID INT AUTO_INCREMENT,
-    Name VARCHAR(160) NOT NULL,
-    Capacity INT NOT NULL,
-    Address VARCHAR(255) NOT NULL,
-    PRIMARY KEY (VenueID)
-);
-""", language="sql")
-
-st.subheader("Events Table")
-st.code("""
-CREATE TABLE Events (
-    EventID INT AUTO_INCREMENT,
-    VenueID INT NOT NULL,
-    Name VARCHAR(160) NOT NULL,
-    EventDate DATE NOT NULL,
-    EventTime TIME,
-    PRIMARY KEY (EventID),
-    FOREIGN KEY (VenueID) REFERENCES Venues(VenueID)
-);
-""", language="sql")
-
-st.subheader("Seats Table")
-st.code("""
-CREATE TABLE Seats (
-    SeatID INT AUTO_INCREMENT,
-    VenueID INT NOT NULL,
-    Section VARCHAR(50) NOT NULL,
-    SeatRow INT NOT NULL,
-    Number INT NOT NULL,
-    Price DECIMAL(10,2),
-    PRIMARY KEY (SeatID),
-    FOREIGN KEY (VenueID) REFERENCES Venues(VenueID),
-    UNIQUE KEY (VenueID, Section, SeatRow, Number)
-);
-""", language="sql")
-
-st.subheader("Bookings Table")
-st.code("""
-CREATE TABLE Bookings (
-    BookingID INT AUTO_INCREMENT,
-    UserID INT NOT NULL,
-    EventID INT NOT NULL,
-    SeatID INT NOT NULL,
-    BookingDate DATE NOT NULL,
-    PRIMARY KEY (BookingID),
-    FOREIGN KEY (UserID) REFERENCES Users(UserID),
-    FOREIGN KEY (EventID) REFERENCES Events(EventID),
-    FOREIGN KEY (SeatID) REFERENCES Seats(SeatID),
-    UNIQUE KEY (EventID, SeatID)
-);
-""", language="sql")
-
-st.subheader("Transactions Table")
-st.code("""
-CREATE TABLE Transactions (
-    TransactionID INT AUTO_INCREMENT,
-    BookingID INT NOT NULL,
-    Amount DECIMAL(10,2),
-    TransactionDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    PaymentMethod VARCHAR(50),
-    PRIMARY KEY (TransactionID),
-    FOREIGN KEY (BookingID) REFERENCES Bookings(BookingID)
-);
-""", language="sql")
-
-# Dummy Data Section
-st.header("Dummy Data")
-st.subheader("Inserting Data into Users")
+st.subheader("Example Data Insertion")
+st.write("Here’s an example of inserting user information into the `Users` table.")
 st.code("""
 INSERT INTO Users (Username, Password, Email) VALUES
 ('Alice123', 'password123', 'alice@example.com'),
 ('Bob234', 'password234', 'bob@example.com');
 """, language="sql")
-
-st.subheader("Inserting Data into Venues")
-st.code("""
-INSERT INTO Venues (Name, Capacity, Address) VALUES
-('Stadium A', 20000, '123 Venue Road, CityA'),
-('Arena B', 15000, '234 Venue Street, CityB');
-""", language="sql")
-
-# Repeat for other tables as necessary
 
 # Dashboard and Results Section
 st.header("Dashboard")
