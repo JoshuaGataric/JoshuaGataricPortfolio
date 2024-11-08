@@ -51,7 +51,7 @@ if page == "Home":
     st.write("- NFL Combine Analysis")
     st.write("- THE GAME Corpus Construction")
     st.write("- 2022 World Cup Analysis")
-    st.write("- Ticket Sales Database")
+    st.write("- Stadium Seat Booking System")
 
     # Connect with Me Section
     st.subheader("Connect with Me")
