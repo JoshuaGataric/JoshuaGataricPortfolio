@@ -59,7 +59,7 @@ if page == "Home":
     st.write("[www.linkedin.com/in/joshua-gataric](https://www.linkedin.com/in/joshua-gataric)")
 
     # Footer
-    st.write("© 2024 Joshua Gataric")
+    st.write("© 2025 Joshua Gataric")
 
 elif page == "Hobbies":
     exec(open("hobbies.py").read())
