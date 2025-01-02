@@ -46,4 +46,4 @@ st.image("Dashboard2.png", caption="Dashboard Example 2")
 st.image("Dashboard3.png", caption="Dashboard Example 3")
 
 # Footer
-st.write("© 2024 Joshua Gataric")
+st.write("© 2025 Joshua Gataric")
