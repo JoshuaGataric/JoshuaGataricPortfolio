@@ -45,4 +45,4 @@ st.image("Outdoors2.jpg")
 st.image("Outdoors3.jpg") 
 
 # Footer
-st.write("© 2024 Joshua Gataric")
+st.write("© 2025 Joshua Gataric")
