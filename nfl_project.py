@@ -48,4 +48,4 @@ st.write("### Games-Howell Test:")
 st.image("Games-HowellNFLCombine.png", caption="Games-Howell NFL Combine")
 
 # Footer
-st.write("© 2024 Joshua Gataric")
+st.write("© 2025 Joshua Gataric")
