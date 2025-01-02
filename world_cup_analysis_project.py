@@ -63,4 +63,4 @@ The PC1 vs PC3 plot shows experience-related trends. Although top teams like Cro
 """)
 
 # Footer
-st.write("© 2024 Joshua Gataric")
+st.write("© 2025 Joshua Gataric")
