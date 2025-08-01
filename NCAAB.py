@@ -55,3 +55,6 @@ st.image("NCAAB3.png", caption="XGBoost and Random Forest are tied for best mode
 # MSE results
 st.write("### Cross-Validated Mean Squared Error Results:")
 st.image("NCAAB4.png", caption="MLP is the best model in regards to this metric")
+
+# Footer
+st.write("© 2025 Joshua Gataric")
