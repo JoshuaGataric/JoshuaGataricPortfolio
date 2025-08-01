@@ -24,11 +24,13 @@ st.header("Project Overview")
 
 # Overview Section
 st.write("""
-This project explores the use of Gaussian Process (GP) regression to forecast hourly traffic volume on a Minneapolis highway. Using the Metro Interstate Traffic Volume dataset from the UCI Machine Learning Repository, I trained GP models on 2016–2017 data and validated performance on 2018 data.
+This project utilizes Gaussian Process (GP) regression to predict hourly traffic volume on a Minneapolis highway. Using the Metro Interstate Traffic Volume dataset from the UCI Machine Learning Repository, I trained the model with data from 2016 to 2017 and validated it with 2018 data.
 
-The goal was to model future traffic trends using only date and time information. I experimented with various kernel functions to capture periodic patterns (such as weekly cycles) and evaluated each model using the RMSE metric. The best-performing model achieved a validation RMSE of 524.06, successfully capturing recurring traffic trends over time.
+The goal was to forecast future traffic trends based on date and time information only. I experimented with different kernel functions to capture periodic traffic patterns (such as weekly cycles), and evaluated the models using performance metrics like RMSE and MAE. The best-performing model achieved a validation RMSE of 524.06, successfully identifying recurring trends in traffic volume.
 
-Future work includes incorporating weather and holiday features to improve prediction accuracy and exploring hybrid models that combine GPs with other time-series methods
+For this project, I used only the Python libraries NumPy, SciPy.special, and Pandas to implement the Gaussian Process regression and kernel combinations.
+
+Future work will explore incorporating weather and holiday data to enhance the model’s predictive accuracy, as well as investigating the integration of hybrid models that combine GPs with other time-series forecasting methods.
 """)
 
 # Results Section
