@@ -31,10 +31,10 @@ if page == "Home":
     st.subheader("Bio")
     st.image("Header.jpeg", width=200)  # Ensure the image is in the same directory or provide the correct path
     st.write("""
-    Hi! I'm Joshua Gataric, currently pursuing a Master of Data Science at UCI. I have a keen interest in machine learning, artificial intelligence, and exploratory data analysis.
+    Hi! I'm Joshua Gataric, recently I graduated UCI with my Master of Data Science degree. I have a keen interest in machine learning, artificial intelligence, and exploratory data analysis.
     My role as a supplemental instruction leader at San Diego State ignited my curiosity and passion for statistics.
     Additionally, undergraduate coursework such as Ling 583 Statistical Methods in Text Analysis and STAT 410 R Programming and Data Science 
-    has deepened my enthusiasm for the field of data science.
+    sparked my enthusiasm for the field of data science.
     """)
 
     # Education Section
