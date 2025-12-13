@@ -40,7 +40,7 @@ if page == "Home":
     # Education Section
     st.subheader("Education")
     st.write("""
-    - M.S. Data Science - UC Irvine (Expected Graduation December 2025)
+    - M.S. Data Science - UC Irvine
     - B.S. Statistics - San Diego State, Magna Cum Laude
     """)
 
