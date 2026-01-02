@@ -49,4 +49,4 @@ st.write("### Periodic Kernel Results:")
 st.image("GP4.png", caption="Observed and predicted traffic volume for GP with periodic kernel (ℓ = 0.01, p = 168) on 2 weeks of validation data (01/01/2018 to 01/01/2014)")
 
 # Footer
-st.write("© 2025 Joshua Gataric")
+st.write("© 2026 Joshua Gataric")
