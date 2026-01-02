@@ -45,4 +45,4 @@ st.image("RandomForestConfusionMatrix.png", caption="Random Forest Confusion Mat
 st.image("RandomForestScores.png", caption="Random Forest F1 Macro Avg Score")
 
 # Footer
-st.write("© 2025 Joshua Gataric")
+st.write("© 2026 Joshua Gataric")
