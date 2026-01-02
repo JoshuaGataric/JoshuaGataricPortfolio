@@ -45,5 +45,5 @@ st.write("### Likelihood Ratio Collocations:")
 st.image("LikelihoodRatioCollocations.png", caption="Likelihood Ratio Bigrams/Trigrams")
 
 # Footer
-st.write("© 2025 Joshua Gataric")
+st.write("© 2026 Joshua Gataric")
 
