@@ -54,4 +54,4 @@ st.write("### MANOVA Test Results:")
 st.image("NCAAF6.png", caption = "Test Results indicate a significant difference in passing stats between conferences but do not show a significant difference in rushing stats ")
 
 # Footer
-st.write("© 2025 Joshua Gataric")
+st.write("© 2026 Joshua Gataric")
